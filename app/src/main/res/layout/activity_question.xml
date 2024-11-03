@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question"
+    android:background="@drawable/simple_backgroud">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/stopwatch_anim"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/stopwatch" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="282dp"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/option1"
+        android:text="option1"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="216dp" />
+
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:text="option1"
+        android:id="@+id/option2"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginBottom="216dp" />
+
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:id="@+id/option3"
+        android:text="option1"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="97dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:text="option1"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="231dp"
+        android:layout_marginBottom="99dp" />
+
+
+</RelativeLayout>
